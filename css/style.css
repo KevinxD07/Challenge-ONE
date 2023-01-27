@@ -1,0 +1,134 @@
+*{
+    background: #f3f5fc;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: 'Abel', sans-serif;
+}
+/*poscionar el logo de programdor en la esquina izquierda*/
+.logo-izquierdo img{
+    max-width: 7%;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+/*Asignandole el tamaño maximo del programa, tanto ancho y alto*/
+main.contenedor{
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    height: 100%;
+    max-height: 1024px;
+}
+/*Retoques para darle mejor aspecto al textarea*/
+
+.contenedor-1{
+    float: left;
+    position: relative;
+    max-width: 65%;
+    margin-left: 60px;
+    left: 50px;
+}
+
+.text-area textarea{
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    resize: none; 
+    color: #0a3871;
+    padding: 30px 30px 10px 0; 
+}
+
+::placeholder{opacity: 0.3;}
+    textarea:focus{
+    outline: none;        
+}
+
+textarea::placeholder{
+    text-align: center;
+    line-height: 300px;
+    
+}
+
+.warning{
+    text-align: center;
+    font-size: 16px;
+    padding: 15px;
+    margin-top: 60px;
+}
+
+section.contenedor-2{
+    position: relative;
+    float: right;
+    border: none;
+    height: 650px;
+    width: 365px;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    left: 150px;
+    box-shadow: 4px 4px 15px 5px #87CEFA;
+    
+}
+
+.mensaje-reflejado{
+    background: white;
+    position: relative;
+    height: 590px;
+    width: 365px;
+    color: #0a3871;
+}
+
+.mensaje{
+    background: url(/Imagenes/hackxd.png);
+    background-repeat: no-repeat;
+    padding: 25px;
+    height: 520px;
+    width: 310px;
+    border: none;
+    resize: none;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.Botones-principales{
+    display: flex;
+
+}
+
+.encriptar-btn{
+    background: #d8dfe8;
+    border: 1px  solid #0a3871;
+    border-radius: 15px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 65px;
+    width: 325px;
+    box-shadow: 3px 3px 10px 2px;
+}
+
+.desencriptar-btn{
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 15px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 65px;
+    margin-left: 20px;
+    width: 325px;
+    box-shadow: 3px 3px 10px 2px;
+}
+
+
+
+.copiar-txt{
+    position: absolute;
+    border: 1px solid #DC143C;
+    color: #DC143C;
+    border-radius: 15px;
+    cursor: pointer;
+    height: 50px; 
+    margin-left: 60px;
+    width: 250px;
+    box-shadow: 2px 2px 8px 2px #DC143C;
+}
