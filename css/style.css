@@ -78,7 +78,7 @@ section.contenedor-2{
 }
 
 .mensaje{
-    background: url(/Imagenes/hackxd.png);
+    background: url(../Imagenes/hackxd.png);
     background-repeat: no-repeat;
     padding: 25px;
     height: 520px;
